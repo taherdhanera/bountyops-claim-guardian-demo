@@ -9,6 +9,7 @@
 - Submission deadline: 2026-06-14 11:59 PM PT
 - Source: https://info.microsoft.com/Agents-League-Hackathon-Registration.html
 - Live verification: official page still lists the June 12 registration deadline, June 14 project deadline, and USD 55,000 prize pool as of 2026-06-11.
+- Registration status: confirmed by Microsoft Azure Team email on 2026-06-12.
 
 ## Submission Name
 
@@ -106,6 +107,8 @@ Explain that protected payouts stay first, then new work is selected by payout, 
   - watcher scripts
   - generated report/dashboard/action-log examples
   - selected anonymized or public GitHub evidence links
+- Public demo repo:
+  - https://github.com/taherdhanera/bountyops-claim-guardian-demo
 - Hosted project URL:
   - https://microsoft-public-demo-bundle.vercel.app
   - Public Vercel access verified on 2026-06-11 with unauthenticated `200` and page title `BountyOps Claim Guardian`.
@@ -121,7 +124,7 @@ Explain that protected payouts stay first, then new work is selected by payout, 
 
 ## Build Checklist
 
-- [ ] Create a clean public demo repo or branch.
+- [x] Create a clean public demo repo or branch.
 - [x] Add a README focused on the Reasoning Agents track.
 - [x] Add sample sanitized watcher input/output fixtures.
 - [x] Add `npm run demo` command that regenerates report and dashboard from fixtures.
@@ -133,7 +136,7 @@ Explain that protected payouts stay first, then new work is selected by payout, 
 - [x] Draft a 2-3 minute demo script.
 - [x] Draft a public demo README.
 - [ ] Record a 2-3 minute demo.
-- [ ] Register for Microsoft Agents League before 2026-06-12 12:00 PM PT.
+- [x] Register for Microsoft Agents League before 2026-06-12 12:00 PM PT.
 - [ ] Submit before 2026-06-14 11:59 PM PT.
 
 ## Local Commands
