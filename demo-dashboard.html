@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BountyOps Revenue Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #18202a;
+      --muted: #5d6875;
+      --line: #d8dee6;
+      --good: #176b4d;
+      --warn: #985f0d;
+      --accent: #155e75;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+    header {
+      padding: 24px 28px 14px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 20px 20px 32px;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      min-height: 92px;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+    .metric.ok strong { color: var(--good); }
+    .metric.warn strong { color: var(--warn); }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    h2 {
+      margin: 0;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+    .status {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    th, td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #fbfcfd;
+    }
+    td:nth-child(1), th:nth-child(1) { width: 44px; }
+    td:nth-child(2), th:nth-child(2) { width: 240px; }
+    td:nth-child(3), th:nth-child(3) { width: 100px; }
+    td:nth-child(4), th:nth-child(4) { width: 120px; }
+    td:nth-child(5), th:nth-child(5) { width: 72px; }
+    td:nth-child(7), th:nth-child(7) { width: 72px; }
+    td span {
+      display: block;
+      color: var(--muted);
+      margin-top: 3px;
+      font-size: 12px;
+    }
+    a { color: var(--accent); }
+    @media (max-width: 860px) {
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      table { min-width: 920px; }
+      section { overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BountyOps Revenue Dashboard</h1>
+    <p class="sub">Claim protection, payout readiness, and ranked expansion lanes toward the revenue target.</p>
+  </header>
+  <main>
+    <div class="metrics">
+      <div class="metric ok"><span>Confirmed pending</span><strong>$11,355</strong></div>
+      <div class="metric ok"><span>With upside</span><strong>$12,055</strong></div>
+      <div class="metric ok"><span>Action needed</span><strong>0</strong></div>
+      <div class="metric ok"><span>Open PR sweep</span><strong>OK</strong></div>
+    </div>
+    <section>
+      <div class="section-head">
+        <h2>Ranked Expansion Lanes</h2>
+        <div class="status">Watcher checked: 2026-06-06T23:10:44<br>Generated: 2026-06-12T09:31:43.368Z</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Lane</th>
+            <th>Prize</th>
+            <th>Deadline</th>
+            <th>Score</th>
+            <th>Next action</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+<tr>
+      <td>1</td>
+      <td><strong>Microsoft Agents League Hackathon</strong><span>hackathon</span></td>
+      <td>$55,000</td>
+      <td>3 days</td>
+      <td>63</td>
+      <td>Register, then package a BountyOps reasoning agent demo using live GitHub/Algora signals and a clear leaderboard workflow.</td>
+      <td><a href="https://info.microsoft.com/Agents-League-Hackathon-Registration.html">source</a></td>
+    </tr>
+<tr>
+      <td>2</td>
+      <td><strong>Google Cloud Rapid Agent Hackathon</strong><span>hackathon</span></td>
+      <td>$60,000</td>
+      <td>0 days</td>
+      <td>61</td>
+      <td>Choose a partner bucket, build a Gemini/MCP demo around opportunity triage, and submit before June 11 at 2pm PDT.</td>
+      <td><a href="https://rapid-agent.devpost.com/">source</a></td>
+    </tr>
+<tr>
+      <td>3</td>
+      <td><strong>UiPath AgentHack</strong><span>hackathon</span></td>
+      <td>$50,000</td>
+      <td>18 days</td>
+      <td>54</td>
+      <td>Map the current bounty workflow into a UiPath agent: inbox triage, GitHub action detection, PR/claim risk routing, and audit trail.</td>
+      <td><a href="https://uipath-agenthack.devpost.com/">source</a></td>
+    </tr>
+<tr>
+      <td>4</td>
+      <td><strong>Splunk Agentic Ops Hackathon</strong><span>hackathon</span></td>
+      <td>$20,000</td>
+      <td>4 days</td>
+      <td>50</td>
+      <td>Prototype a Splunk-flavored BountyOps dashboard and incident workflow only after Microsoft/Google registration steps are safe.</td>
+      <td><a href="https://splunk.devpost.com/">source</a></td>
+    </tr>
+<tr>
+      <td>5</td>
+      <td><strong>FIND EVIL! AI Defender Hackathon</strong><span>hackathon</span></td>
+      <td>$22,000</td>
+      <td>4 days</td>
+      <td>48</td>
+      <td>Track as a second-wave security-agent package; reuse BountyOps audit-log mechanics with sanitized incident-response demo data.</td>
+      <td><a href="https://findevil.devpost.com/">source</a></td>
+    </tr>
+<tr>
+      <td>6</td>
+      <td><strong>unitaryHACK 2026 open quantum software bounties</strong><span>hackathon-bounty-feed</span></td>
+      <td>$12,000</td>
+      <td>6 days</td>
+      <td>47</td>
+      <td>Run a scoped shortlist pass for Python docs/examples/CI bounties at USD 100-250 with no active competing PR, then elevate only 2-3 low-risk issues.</td>
+      <td><a href="https://unitaryhack.dev/bounties/">source</a></td>
+    </tr>
+<tr>
+      <td>7</td>
+      <td><strong>Apify Algora Bounty Radar scout</strong><span>bounty-scout-tool</span></td>
+      <td>$5,000</td>
+      <td>No fixed deadline</td>
+      <td>44</td>
+      <td>Run a small dry-run scout for TypeScript, Python, Next.js, and AI-agent bounties; add only REVIEW rows with clear funding and low competition.</td>
+      <td><a href="https://apify.com/sebarb/algora-bounty-radar">source</a></td>
+    </tr>
+<tr>
+      <td>8</td>
+      <td><strong>ARC Prize 2026 ARC-AGI-3</strong><span>research-prize</span></td>
+      <td>$850,000</td>
+      <td>19 days</td>
+      <td>40</td>
+      <td>Do not displace current cash lanes; create a one-evening feasibility spike only after Microsoft/Google registration and existing claims are safe.</td>
+      <td><a href="https://arcprize.org/competitions/2026/arc-agi-3">source</a></td>
+    </tr>
+<tr>
+      <td>9</td>
+      <td><strong>NandaHack Agentic AI Hackathon</strong><span>hackathon</span></td>
+      <td>$0</td>
+      <td>0 days</td>
+      <td>38</td>
+      <td>Apply with a working prototype: agent-readable instructions, live status board, risk scoring, and replayable evidence logs.</td>
+      <td><a href="https://nandahack.up.railway.app/">source</a></td>
+    </tr>
+<tr>
+      <td>10</td>
+      <td><strong>Algora open bounties high-value scan</strong><span>bounty-feed</span></td>
+      <td>$4,000</td>
+      <td>No fixed deadline</td>
+      <td>37</td>
+      <td>Use the logged-in Algora dashboard to filter for open bounties above $500; add only clean, low-competition issues to the active queue.</td>
+      <td><a href="https://algora.io/bounties/new">source</a></td>
+    </tr>
+<tr>
+      <td>11</td>
+      <td><strong>TSPerf Type Complexity VSCode extension challenge</strong><span>hackathon</span></td>
+      <td>$15,000</td>
+      <td>No fixed deadline</td>
+      <td>36</td>
+      <td>Only pursue after a quick gap audit of tsperf/tracer; likely path is fixing current high-impact bugs or packaging a stronger demo, not starting from scratch.</td>
+      <td><a href="https://algora.io/challenges/tsperf">source</a></td>
+    </tr>
+<tr>
+      <td>12</td>
+      <td><strong>ARC Prize 2026 ARC-AGI-2</strong><span>research-prize</span></td>
+      <td>$700,000</td>
+      <td>No fixed deadline</td>
+      <td>34</td>
+      <td>Watch only unless we can identify a concrete low-cost technique with public benchmark lift.</td>
+      <td><a href="https://arcprize.org/competitions/2026/arc-agi-2">source</a></td>
+    </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

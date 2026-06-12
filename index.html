@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BountyOps Claim Guardian</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f8fb;
+        --ink: #17202a;
+        --muted: #5f6f82;
+        --panel: #ffffff;
+        --line: #d9e1ea;
+        --accent: #1168d8;
+        --accent-strong: #0b4fa8;
+        --success: #177245;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+      }
+
+      main {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
+
+      header {
+        margin-bottom: 32px;
+      }
+
+      .eyebrow {
+        color: var(--accent-strong);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 8px 0 12px;
+        font-size: clamp(34px, 7vw, 68px);
+        line-height: 1.02;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 780px;
+        color: var(--muted);
+        font-size: 19px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 10px 16px;
+        border: 1px solid var(--accent);
+        border-radius: 6px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      a.button.secondary {
+        background: var(--panel);
+        color: var(--accent-strong);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        margin: 32px 0;
+      }
+
+      .metric,
+      .section {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .metric {
+        padding: 18px;
+      }
+
+      .metric strong {
+        display: block;
+        color: var(--success);
+        font-size: 28px;
+      }
+
+      .metric span {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .section {
+        padding: 24px;
+        margin-top: 16px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 24px;
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      code {
+        background: #eef3f8;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        padding: 2px 5px;
+      }
+
+      .links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 12px;
+      }
+
+      .links a {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fbfcfe;
+        color: var(--accent-strong);
+        padding: 12px;
+        text-decoration: none;
+      }
+
+      @media (max-width: 720px) {
+        main {
+          padding: 32px 16px;
+        }
+
+        .grid,
+        .links {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">Microsoft Agents League - Reasoning Agents</div>
+        <h1>BountyOps Claim Guardian</h1>
+        <p class="lead">
+          A reasoning agent that protects open bounty payouts by monitoring GitHub, Gmail notifications,
+          claim state, CI, and public evidence trails, then acting only when a real payout risk appears.
+        </p>
+        <div class="actions">
+          <a class="button" href="demo-dashboard.html">Open Demo Dashboard</a>
+          <a class="button secondary" href="demo-current.md">Read Generated Report</a>
+        </div>
+      </header>
+
+      <section class="grid" aria-label="Demo metrics">
+        <div class="metric">
+          <strong>$11,355</strong>
+          <span>confirmed pending bounty pipeline in the sanitized demo state</span>
+        </div>
+        <div class="metric">
+          <strong>0</strong>
+          <span>claim attention items in the protected watch pass</span>
+        </div>
+        <div class="metric">
+          <strong>26</strong>
+          <span>open bounty PRs checked in the sweep</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Agent Loop</h2>
+        <ul>
+          <li>Read watcher, claim, PR, issue, and inbox state.</li>
+          <li>Rank active lanes by payout value, merge readiness, and visibility risk.</li>
+          <li>Verify whether the latest public issue tail still preserves the active claim.</li>
+          <li>Post a concise public update only when evidence shows a real gap.</li>
+          <li>Write compact checkpoints so the next run resumes from current evidence.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Public Evidence</h2>
+        <p>
+          The demo uses public GitHub evidence and sanitized local fixtures. It excludes private mailbox
+          bodies, cookies, tokens, payout credentials, banking data, and authenticated claim pages.
+        </p>
+        <div class="links">
+          <a href="https://github.com/SecureBananaLabs/bug-bounty/issues/80#issuecomment-4677720719">SecureBanana #80 evidence comment</a>
+          <a href="https://github.com/SecureBananaLabs/bug-bounty/pull/1666">SecureBanana #80 active PR</a>
+          <a href="README.md">Project README</a>
+          <a href="PUBLIC_DEMO_MANIFEST.md">Public Demo Manifest</a>
+          <a href="submission-package.md">Submission Package</a>
+          <a href="demo-video-script.md">Demo Video Script</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Local Replay</h2>
+        <p>Regenerate the demo from the sanitized fixture:</p>
+        <p><code>cd agent-prize-radar</code></p>
+        <p><code>npm run demo</code></p>
+      </section>
+    </main>
+  </body>
+</html>

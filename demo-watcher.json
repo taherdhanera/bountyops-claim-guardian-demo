@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-06-06T23:10:44",
+  "confirmedPendingTotal": 11355,
+  "totalIncludingUnconfirmedUpside": 12055,
+  "claimStatusAttentionCount": 0,
+  "scibaseUnansweredExternalIssueCount": 0,
+  "nonScibaseUnansweredExternalIssueCount": 0,
+  "scibasePrActionNeededCount": 0,
+  "scibaseCompetingPrVisibilityGapCount": 0,
+  "nonScibaseActionNeededCount": 0,
+  "watchlistActionNeededCount": 0,
+  "openBountyPrSweepStatus": "OK",
+  "openBountyPrSweepCount": 26,
+  "untrackedOpenBountyPrCount": 0,
+  "claims": [
+    {
+      "key": "SCIBASE #16 PR #361",
+      "amount": 2675,
+      "status": "Pending",
+      "http": 200,
+      "url": "https://algora.io/claims/oRaeL6McZeQxAxUv"
+    },
+    {
+      "key": "SecureBanana #80 PR #1666",
+      "amount": 780,
+      "status": "Pending",
+      "http": 200,
+      "url": "https://algora.io/claims/8XDjJazJsbbRWw4E"
+    },
+    {
+      "key": "SecureBanana #743 PR #1634",
+      "amount": 700,
+      "status": "Pending",
+      "http": 200,
+      "url": "https://algora.io/claims/ejgQ9qMrytjoa441"
+    }
+  ],
+  "demoScenario": {
+    "trigger": "New competitor issue-tail activity on a claimed bounty",
+    "agentDecision": "Post a concise evidence-backed tail refresh because our PR is still open, non-draft, clean, and claim-marked",
+    "publicEvidence": "https://github.com/SecureBananaLabs/bug-bounty/issues/80#issuecomment-4639813261",
+    "privateDataPolicy": "No Gmail body content, tokens, bank data, cookies, or payout credentials are included"
+  }
+}
