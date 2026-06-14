@@ -25,6 +25,7 @@ This bundle intentionally excludes:
 - private Gmail message bodies and mailbox exports
 - cookies, auth tokens, session data, and API keys
 - bank, payout, tax, or payment-account details
+- live claim URLs or authenticated payout pages
 - raw Algora account pages that require login
 - private local logs or screenshots containing account identity data
 - non-public maintainer or contributor data

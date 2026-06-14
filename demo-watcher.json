@@ -1,7 +1,8 @@
 {
+  "publicRedacted": true,
   "checkedAt": "2026-06-06T23:10:44",
-  "confirmedPendingTotal": 11355,
-  "totalIncludingUnconfirmedUpside": 12055,
+  "confirmedPendingTotal": 0,
+  "totalIncludingUnconfirmedUpside": 0,
   "claimStatusAttentionCount": 0,
   "scibaseUnansweredExternalIssueCount": 0,
   "nonScibaseUnansweredExternalIssueCount": 0,
@@ -14,25 +15,25 @@
   "untrackedOpenBountyPrCount": 0,
   "claims": [
     {
-      "key": "SCIBASE #16 PR #361",
-      "amount": 2675,
+      "key": "Primary bounty lane A",
+      "amount": 0,
       "status": "Pending",
       "http": 200,
-      "url": "https://algora.io/claims/oRaeL6McZeQxAxUv"
+      "evidence": "public GitHub issue and PR state"
     },
     {
-      "key": "SecureBanana #80 PR #1666",
-      "amount": 780,
+      "key": "Primary bounty lane B",
+      "amount": 0,
       "status": "Pending",
       "http": 200,
-      "url": "https://algora.io/claims/8XDjJazJsbbRWw4E"
+      "evidence": "public GitHub issue and PR state"
     },
     {
-      "key": "SecureBanana #743 PR #1634",
-      "amount": 700,
+      "key": "Primary bounty lane C",
+      "amount": 0,
       "status": "Pending",
       "http": 200,
-      "url": "https://algora.io/claims/ejgQ9qMrytjoa441"
+      "evidence": "public GitHub issue and PR state"
     }
   ],
   "demoScenario": {

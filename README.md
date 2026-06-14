@@ -28,7 +28,7 @@ Public-safe live example:
 - Active PR: https://github.com/SecureBananaLabs/bug-bounty/pull/1666
 - Local checkpoint: `bounty-checkpoint-2026-06-11-1152-securebanana80-yfengj-cleared.md`
 
-The demo uses sanitized local fixtures for repeatability and does not include private Gmail, cookies, bank data, payout credentials, or tokens.
+The demo uses sanitized local fixtures for repeatability and does not include private Gmail, live claim URLs, cookies, bank data, payout credentials, or tokens.
 
 ## Local Demo
 
