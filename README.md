@@ -1,12 +1,36 @@
 # BountyOps Claim Guardian
 
-Reasoning agent for protecting open-source bounty payouts.
+Reasoning agent pattern for protecting open-source bounty payouts without noisy public comments.
+
+Live demo:
+https://taherdhanera.github.io/bountyops-claim-guardian-demo/
+
+## Why Star This
+
+BountyOps is a public-safe reference for a practical agentic workflow:
+
+- monitors GitHub issues, PRs, CI, claim markers, and inbox-style notifications;
+- ranks payout risk and contributor-side blockers;
+- preserves an audit trail for long-running work;
+- avoids spam by acting only when evidence shows a real gap;
+- packages the result as a readable dashboard and replayable decision report.
 
 ## What It Does
 
 BountyOps Claim Guardian monitors active bounty claims across GitHub, Gmail notifications, claim pages, CI checks, and local evidence logs. It ranks payout risk, detects competitor or maintainer activity, and decides whether to act, watch, or skip.
 
 The core policy is conservative: public comments are generated only when there is a real claim visibility gap, contributor-side blocker, failed check, or maintainer request. Clean passes become audit checkpoints instead of noisy comments.
+
+## Demo
+
+Open the static demo:
+
+- Dashboard: [demo-dashboard.html](demo-dashboard.html)
+- Generated report: [demo-current.md](demo-current.md)
+- Public manifest: [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md)
+- Submission package: [submission-package.md](submission-package.md)
+
+This repository is intentionally static and public-safe. It shows the output and operating model without publishing private mailbox content, authenticated claim URLs, cookies, tokens, payout credentials, or banking data.
 
 ## Why It Matters
 
@@ -20,6 +44,18 @@ Open-source bounty work can lose payout visibility when issue tails, PRs, claim 
 - latest issue/PR activity
 - maintainer blockers or no-action reasoning
 
+## Agent Loop
+
+1. Read watcher, claim, PR, issue, CI, and inbox state.
+2. Normalize each lane into structured evidence.
+3. Rank by payout value, merge readiness, visibility risk, and blocker status.
+4. Decide whether the correct action is comment, fix, draft, wait, or checkpoint.
+5. Write a compact checkpoint so the next run resumes from current evidence.
+
+## Architecture
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the decision model, no-spam guardrails, and public-safe data boundary.
+
 ## Demo Evidence
 
 Public-safe live example:
@@ -30,49 +66,19 @@ Public-safe live example:
 
 The demo uses sanitized local fixtures for repeatability and does not include private Gmail, live claim URLs, cookies, bank data, payout credentials, or tokens.
 
-## Local Demo
-
-```powershell
-cd agent-prize-radar
-npm run demo
-```
-
-This generates:
-
-- `reports/demo-current.md`
-- `reports/demo-dashboard.html`
-
-For the live local state:
-
-```powershell
-npm run report
-npm run dashboard
-npm run action-log
-npm run submission
-```
-
-Key live artifacts:
-
-- `reports/current.md`
-- `reports/dashboard.html`
-- `reports/action-log.json`
-- `submissions/microsoft-agents-league-bountyops.md`
-- `submissions/microsoft-demo-video-script.md`
-
-## Agent Loop
-
-1. Read current watcher and claim state.
-2. Search Gmail for actionable bounty and payout notifications.
-3. Inspect hot GitHub issue and PR lanes.
-4. Rank by payout amount, merge readiness, visibility risk, and blocker status.
-5. Act only when evidence shows a real gap.
-6. Write a compact checkpoint so the next run can resume quickly.
-
 ## Microsoft Agents League Fit
 
 Track: Reasoning Agents
 
 BountyOps demonstrates multi-step tool reasoning, risk-aware action, and auditable decision making. It uses real-world GitHub/Gmail/claim signals, turns them into structured evidence, and decides when external action is warranted.
+
+## Useful For
+
+- open-source bounty contributors protecting claim visibility;
+- maintainers who want less noisy status comments;
+- AI-agent builders designing conservative action policies;
+- teams building GitHub/Gmail/API operations dashboards;
+- founders evaluating practical agent workflows beyond chat demos.
 
 ## Safety Rules
 
@@ -80,3 +86,7 @@ BountyOps demonstrates multi-step tool reasoning, risk-aware action, and auditab
 - Never include secrets, cookies, tokens, bank data, or payout credentials.
 - Use public GitHub links and sanitized fixtures for demos.
 - Keep public comments sparse, professional, and evidence-backed.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
