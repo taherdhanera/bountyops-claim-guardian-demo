@@ -1,19 +1,30 @@
 # BountyOps Claim Guardian
 
-Reasoning agent pattern for protecting open-source bounty payouts without noisy public comments.
+Reasoning-agent workflow for protecting open-source bounty payouts without noisy public comments.
 
 Live demo:
 https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 
+Repository:
+https://github.com/taherdhanera/bountyops-claim-guardian-demo
+
 ## Why Star This
 
-BountyOps is a public-safe reference for a practical agentic workflow:
+BountyOps is a public-safe reference for practical agentic operations. Star it if you are building or evaluating agents that need to watch external state, decide when action is justified, and leave a clear audit trail.
 
 - monitors GitHub issues, PRs, CI, claim markers, and inbox-style notifications;
 - ranks payout risk and contributor-side blockers;
 - preserves an audit trail for long-running work;
 - avoids spam by acting only when evidence shows a real gap;
 - packages the result as a readable dashboard and replayable decision report.
+
+## Built For
+
+- open-source bounty contributors protecting claim visibility
+- maintainers who want fewer noisy status comments
+- AI-agent builders designing conservative action policies
+- teams building GitHub, Gmail, CI, and API operations dashboards
+- founders who want agent workflows that do useful work outside chat
 
 ## What It Does
 
@@ -25,6 +36,7 @@ The core policy is conservative: public comments are generated only when there i
 
 Open the static demo:
 
+- Live site: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 - Dashboard: [demo-dashboard.html](demo-dashboard.html)
 - Generated report: [demo-current.md](demo-current.md)
 - Public manifest: [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md)
@@ -51,6 +63,17 @@ Open-source bounty work can lose payout visibility when issue tails, PRs, claim 
 3. Rank by payout value, merge readiness, visibility risk, and blocker status.
 4. Decide whether the correct action is comment, fix, draft, wait, or checkpoint.
 5. Write a compact checkpoint so the next run resumes from current evidence.
+
+## Quick Local Review
+
+This is a static public-safe demo. You can inspect it without credentials:
+
+```powershell
+start index.html
+start demo-dashboard.html
+```
+
+No private Gmail, cookies, tokens, payout credentials, or bank data are required.
 
 ## Architecture
 
