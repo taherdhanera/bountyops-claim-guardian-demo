@@ -2,11 +2,24 @@
 
 Reasoning-agent workflow for protecting open-source bounty payouts without noisy public comments.
 
-Live demo:
-https://taherdhanera.github.io/bountyops-claim-guardian-demo/
+[![Live demo](https://img.shields.io/badge/live-demo-1168d8)](https://taherdhanera.github.io/bountyops-claim-guardian-demo/)
+[![Agent workflow](https://img.shields.io/badge/agent-workflow-177245)](ARCHITECTURE.md)
+[![No spam policy](https://img.shields.io/badge/policy-no--spam-5f6f82)](#safety-rules)
+
+Live demo: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 
 Repository:
 https://github.com/taherdhanera/bountyops-claim-guardian-demo
+
+## 30-Second Review
+
+| Need | Start here |
+| --- | --- |
+| See the product-style demo | [Live demo](https://taherdhanera.github.io/bountyops-claim-guardian-demo/) |
+| Understand the agent decision model | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| Inspect the generated dashboard | [demo-dashboard.html](demo-dashboard.html) |
+| Read a sample checkpoint/report | [demo-current.md](demo-current.md) |
+| Verify the public data boundary | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) |
 
 ## Why Star This
 
@@ -25,6 +38,10 @@ BountyOps is a public-safe reference for practical agentic operations. Star it i
 - AI-agent builders designing conservative action policies
 - teams building GitHub, Gmail, CI, and API operations dashboards
 - founders who want agent workflows that do useful work outside chat
+
+## Search Keywords
+
+AI agents, agentic workflow, GitHub automation, Gmail automation, bounty monitoring, payout operations, CI monitoring, claim protection, no-spam automation, evidence logs, workflow dashboard, open-source bounty operations.
 
 ## What It Does
 
