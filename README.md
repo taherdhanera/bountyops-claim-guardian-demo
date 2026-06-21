@@ -54,6 +54,7 @@ The fastest way to evaluate it is the live dashboard plus the architecture note:
 | See where the pattern fits | [USE_CASES.md](USE_CASES.md) |
 | Share it without spam | [SHARE_KIT.md](SHARE_KIT.md) |
 | Launch it responsibly | [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md) |
+| See the public roadmap | [ROADMAP.md](ROADMAP.md) |
 | Inspect the generated dashboard | [demo-dashboard.html](demo-dashboard.html) |
 | Read a sample checkpoint/report | [demo-current.md](demo-current.md) |
 | Verify the public data boundary | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) |
