@@ -19,6 +19,8 @@ Feedback discussion: https://github.com/taherdhanera/bountyops-claim-guardian-de
 Repository:
 https://github.com/taherdhanera/bountyops-claim-guardian-demo
 
+![BountyOps dashboard screenshot showing redacted payout totals, zero claim attention items, and the agent loop](assets/bountyops-dashboard.png)
+
 ## Use This If You Are Building
 
 - an AI agent that watches GitHub, Gmail, CI, payments, support, recruiting, or release signals;

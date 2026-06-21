@@ -11,6 +11,7 @@ This folder is the public-safe package for the BountyOps Claim Guardian Microsof
 - `README.md` - public-facing project overview and local demo commands.
 - `DEPLOYMENT.md` - deployment instructions and verified public Vercel URL.
 - `index.html` - hostable static entry page for the public demo.
+- `assets/bountyops-dashboard.png` - public-safe screenshot of the static demo with private totals redacted.
 - `vercel.json` - static-hosting config for a Vercel deployment from this folder.
 - `submission-package.md` - Microsoft Agents League submission draft for the Reasoning Agents track.
 - `demo-video-script.md` - 2-3 minute demo narration and scene checklist.
