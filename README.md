@@ -21,15 +21,24 @@ https://github.com/taherdhanera/bountyops-claim-guardian-demo
 | Read a sample checkpoint/report | [demo-current.md](demo-current.md) |
 | Verify the public data boundary | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) |
 
-## Why Star This
+## Why Star / Save This
 
-BountyOps is a public-safe reference for practical agentic operations. Star it if you are building or evaluating agents that need to watch external state, decide when action is justified, and leave a clear audit trail.
+BountyOps is a public-safe reference for practical agentic operations. Star or save it if you are building agents that must watch changing external state, decide when action is justified, and leave a clear audit trail.
 
 - monitors GitHub issues, PRs, CI, claim markers, and inbox-style notifications;
 - ranks payout risk and contributor-side blockers;
 - preserves an audit trail for long-running work;
 - avoids spam by acting only when evidence shows a real gap;
 - packages the result as a readable dashboard and replayable decision report.
+
+## Fast Demo Path
+
+1. Open the [live dashboard](https://taherdhanera.github.io/bountyops-claim-guardian-demo/).
+2. Scan the active-lane table and action queue.
+3. Read [demo-current.md](demo-current.md) for the generated checkpoint/report.
+4. Review [ARCHITECTURE.md](ARCHITECTURE.md) for the decision policy and safety boundary.
+
+The demo is intentionally static, public-safe, and easy to review in under five minutes.
 
 ## Built For
 
