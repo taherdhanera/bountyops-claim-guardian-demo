@@ -1,0 +1,25 @@
+name: Demo feedback
+description: Share focused feedback about the public-safe demo, dashboard, or docs.
+title: "Demo feedback: "
+labels: ["demo-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reviewing BountyOps. Please keep feedback focused on the public demo, docs, or reusable workflow pattern.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What should be improved?
+      description: Point to the page, file, or workflow step if possible.
+      placeholder: The dashboard would be easier to scan if...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Optional details about your use case or review path.
+      placeholder: I reviewed README.md, the live demo, and ARCHITECTURE.md.
+    validations:
+      required: false

@@ -19,9 +19,11 @@ https://github.com/taherdhanera/bountyops-claim-guardian-demo
 | Understand the agent decision model | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | Reuse the operating pattern | [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) |
 | Copy the workflow template | [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md) |
+| See where the pattern fits | [USE_CASES.md](USE_CASES.md) |
 | Inspect the generated dashboard | [demo-dashboard.html](demo-dashboard.html) |
 | Read a sample checkpoint/report | [demo-current.md](demo-current.md) |
 | Verify the public data boundary | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) |
+| Check project maintenance notes | [CHANGELOG.md](CHANGELOG.md) |
 
 ## Why Star / Save This
 
@@ -81,6 +83,7 @@ Open the static demo:
 - Live site: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 - Dashboard: [demo-dashboard.html](demo-dashboard.html)
 - Generated report: [demo-current.md](demo-current.md)
+- Use cases: [USE_CASES.md](USE_CASES.md)
 - Operations playbook: [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md)
 - Workflow template: [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md)
 - Public manifest: [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md)
@@ -158,6 +161,8 @@ Use the same loop for any workflow where external state changes faster than huma
 - compliance-style evidence capture for operational decisions.
 
 The important constraint is the action policy: the agent should act only when the current evidence justifies the action, then record what it did.
+
+For concrete scenarios, see [USE_CASES.md](USE_CASES.md).
 
 ## Safety Rules
 

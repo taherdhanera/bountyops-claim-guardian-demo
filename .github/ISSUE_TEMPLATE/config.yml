@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or private-data concern
+    url: mailto:taher.dhanera@gmail.com
+    about: Do not publish secrets, private mailbox content, payout data, or local private paths in public issues.

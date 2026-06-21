@@ -1,0 +1,29 @@
+name: Workflow adaptation request
+description: Suggest a safe adaptation of the BountyOps pattern to another operations workflow.
+title: "Adaptation: "
+labels: ["workflow-adaptation"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What external state needs to be watched?
+      placeholder: PR review queues, release readiness, recruiting follow-up, support escalation...
+    validations:
+      required: true
+  - type: textarea
+    id: signals
+    attributes:
+      label: Signals
+      description: List the links, statuses, checks, inbox signals, or API fields the agent should inspect.
+      placeholder: GitHub PR checks, issue comments, labels, email subject lines, calendar state...
+    validations:
+      required: true
+  - type: textarea
+    id: action-policy
+    attributes:
+      label: Action policy
+      description: When should the agent act, and when should it only checkpoint?
+      placeholder: Act only on failed checks, maintainer requests, payment signals, or stale blocker comments.
+    validations:
+      required: true
