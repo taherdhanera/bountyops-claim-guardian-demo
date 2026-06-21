@@ -44,6 +44,18 @@ Demo: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 - Relevant AI-agent, developer-tools, open-source, or automation communities where project demos are welcome.
 - Replies only when someone explicitly asks about GitHub automation, operations agents, bounty workflows, CI monitoring, or no-spam agent policies.
 
+## Legit Growth Loop
+
+Use this loop to grow stars without risking account trust:
+
+1. Share one useful update only when there is a concrete improvement: new demo screen, architecture note, workflow template, use case, or benchmark.
+2. Lead with the problem the repo solves, not the star ask.
+3. Send the repo only to people or communities already discussing agents, GitHub automation, CI triage, bounty workflows, or operations dashboards.
+4. Ask for feedback first. Stars should be framed as "star or save if useful," never as a trade or demand.
+5. Track which post, community, or profile link produced real visits, then repeat only the formats that got meaningful replies.
+6. Improve the repo after every useful objection: unclear README, missing setup path, weak screenshot, missing use case, or confusing data boundary.
+7. Keep all sharing manual and specific. No bought stars, engagement groups, fake accounts, mass DMs, or duplicate comments.
+
 ## No-Spam Rules
 
 - Share once per relevant community unless there is a meaningful update.

@@ -13,6 +13,13 @@ Live demo: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 Repository:
 https://github.com/taherdhanera/bountyops-claim-guardian-demo
 
+## Use This If You Are Building
+
+- an AI agent that watches GitHub, Gmail, CI, payments, support, recruiting, or release signals;
+- a dashboard that turns messy external state into a ranked next-action queue;
+- a no-spam action policy for agents that may comment, email, or escalate;
+- a reusable checkpoint format for long-running work that cannot depend on memory alone.
+
 ## Why This Repo Is Worth Saving
 
 Most agent demos stop at chat. BountyOps shows a practical operations loop: read live external state, rank risk, decide whether action is justified, and leave evidence another human or agent can resume from.
@@ -26,6 +33,12 @@ It is designed for workflows where a noisy or wrong action can hurt the user:
 - long-running agent tasks that need checkpointed memory instead of guesswork.
 
 If this pattern helps your own agent work, star or save the repo so it is easier for other builders to find.
+
+The fastest way to evaluate it is the live dashboard plus the architecture note:
+
+- [Live demo](https://taherdhanera.github.io/bountyops-claim-guardian-demo/)
+- [Agent decision model](ARCHITECTURE.md)
+- [Workflow template](WORKFLOW_TEMPLATE.md)
 
 ## 30-Second Review
 
