@@ -31,6 +31,16 @@ BountyOps is a public-safe reference for practical agentic operations. Star or s
 - avoids spam by acting only when evidence shows a real gap;
 - packages the result as a readable dashboard and replayable decision report.
 
+## What This Proves
+
+| Capability | Public proof |
+| --- | --- |
+| Long-running agent state | [demo-current.md](demo-current.md) shows the compact checkpoint/report format. |
+| Review-ready UI | [demo-dashboard.html](demo-dashboard.html) turns watcher output into a scan-friendly operations dashboard. |
+| Conservative action policy | [ARCHITECTURE.md](ARCHITECTURE.md) documents when the agent may comment, fix, draft, watch, or checkpoint. |
+| Public-safe packaging | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) defines the data boundary for sharing the demo. |
+| Real GitHub evidence | The demo links to public issue and PR evidence without exposing private account data. |
+
 ## Fast Demo Path
 
 1. Open the [live dashboard](https://taherdhanera.github.io/bountyops-claim-guardian-demo/).
@@ -39,6 +49,8 @@ BountyOps is a public-safe reference for practical agentic operations. Star or s
 4. Review [ARCHITECTURE.md](ARCHITECTURE.md) for the decision policy and safety boundary.
 
 The demo is intentionally static, public-safe, and easy to review in under five minutes.
+
+If the workflow is useful, star or save the repo so other agent builders can find the public-safe reference.
 
 ## Built For
 
@@ -128,6 +140,18 @@ BountyOps demonstrates multi-step tool reasoning, risk-aware action, and auditab
 - AI-agent builders designing conservative action policies;
 - teams building GitHub/Gmail/API operations dashboards;
 - founders evaluating practical agent workflows beyond chat demos.
+
+## Adapt This Pattern
+
+Use the same loop for any workflow where external state changes faster than humans can track manually:
+
+- PR/issue triage across many repositories;
+- CI failure and release-readiness monitoring;
+- customer-support escalation queues;
+- recruiting or client-follow-up pipelines;
+- compliance-style evidence capture for operational decisions.
+
+The important constraint is the action policy: the agent should act only when the current evidence justifies the action, then record what it did.
 
 ## Safety Rules
 
