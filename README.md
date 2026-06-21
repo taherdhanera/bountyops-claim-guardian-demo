@@ -17,6 +17,7 @@ https://github.com/taherdhanera/bountyops-claim-guardian-demo
 | --- | --- |
 | See the product-style demo | [Live demo](https://taherdhanera.github.io/bountyops-claim-guardian-demo/) |
 | Understand the agent decision model | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| Reuse the operating pattern | [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) |
 | Inspect the generated dashboard | [demo-dashboard.html](demo-dashboard.html) |
 | Read a sample checkpoint/report | [demo-current.md](demo-current.md) |
 | Verify the public data boundary | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) |
@@ -38,6 +39,7 @@ BountyOps is a public-safe reference for practical agentic operations. Star or s
 | Long-running agent state | [demo-current.md](demo-current.md) shows the compact checkpoint/report format. |
 | Review-ready UI | [demo-dashboard.html](demo-dashboard.html) turns watcher output into a scan-friendly operations dashboard. |
 | Conservative action policy | [ARCHITECTURE.md](ARCHITECTURE.md) documents when the agent may comment, fix, draft, watch, or checkpoint. |
+| Reusable playbook | [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) explains how to adapt the loop to recruiting, support, payments, and release ops. |
 | Public-safe packaging | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) defines the data boundary for sharing the demo. |
 | Real GitHub evidence | The demo links to public issue and PR evidence without exposing private account data. |
 
@@ -77,6 +79,7 @@ Open the static demo:
 - Live site: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 - Dashboard: [demo-dashboard.html](demo-dashboard.html)
 - Generated report: [demo-current.md](demo-current.md)
+- Operations playbook: [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md)
 - Public manifest: [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md)
 - Submission package: [submission-package.md](submission-package.md)
 
