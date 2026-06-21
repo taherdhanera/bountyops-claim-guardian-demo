@@ -51,6 +51,7 @@ The fastest way to evaluate it is the live dashboard plus the architecture note:
 | Understand the agent decision model | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | Reuse the operating pattern | [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) |
 | Copy the workflow template | [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md) |
+| Review action scenarios | [SCENARIOS.md](SCENARIOS.md) |
 | See where the pattern fits | [USE_CASES.md](USE_CASES.md) |
 | Share it without spam | [SHARE_KIT.md](SHARE_KIT.md) |
 | Launch it responsibly | [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md) |
