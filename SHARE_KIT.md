@@ -18,6 +18,7 @@ BountyOps shows a practical agent loop for workflows where external state change
 - Use cases: https://github.com/taherdhanera/bountyops-claim-guardian-demo/blob/master/USE_CASES.md
 - Workflow template: https://github.com/taherdhanera/bountyops-claim-guardian-demo/blob/master/WORKFLOW_TEMPLATE.md
 - Public data boundary: https://github.com/taherdhanera/bountyops-claim-guardian-demo/blob/master/PUBLIC_DEMO_MANIFEST.md
+- Feedback discussion: https://github.com/taherdhanera/bountyops-claim-guardian-demo/discussions/1
 
 ## Suggested Manual Post
 
@@ -27,6 +28,7 @@ It is aimed at people building practical operations agents, not chat-only demos.
 
 Repo: https://github.com/taherdhanera/bountyops-claim-guardian-demo
 Demo: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
+Feedback: https://github.com/taherdhanera/bountyops-claim-guardian-demo/discussions/1
 
 If you build GitHub, CI, inbox, support, recruiting, release, or bounty-monitoring agents, feedback is welcome. Star or save it if the pattern is useful.
 

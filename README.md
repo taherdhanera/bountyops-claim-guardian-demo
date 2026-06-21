@@ -7,11 +7,14 @@ Reasoning-agent workflow for protecting open-source bounty payouts without noisy
 [![No spam policy](https://img.shields.io/badge/policy-no--spam-5f6f82)](#safety-rules)
 [![Static public demo](https://img.shields.io/badge/static-public--safe-7a3db8)](PUBLIC_DEMO_MANIFEST.md)
 [![Public release](https://img.shields.io/badge/release-v0.1.0-0f766e)](https://github.com/taherdhanera/bountyops-claim-guardian-demo/releases/tag/v0.1.0-public-demo)
+[![Feedback](https://img.shields.io/badge/feedback-discussion-8b5cf6)](https://github.com/taherdhanera/bountyops-claim-guardian-demo/discussions/1)
 [![License MIT](https://img.shields.io/badge/license-MIT-111827)](LICENSE)
 
 Live demo: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 
 Stable release: https://github.com/taherdhanera/bountyops-claim-guardian-demo/releases/tag/v0.1.0-public-demo
+
+Feedback discussion: https://github.com/taherdhanera/bountyops-claim-guardian-demo/discussions/1
 
 Repository:
 https://github.com/taherdhanera/bountyops-claim-guardian-demo
@@ -56,6 +59,7 @@ The fastest way to evaluate it is the live dashboard plus the architecture note:
 | Review action scenarios | [SCENARIOS.md](SCENARIOS.md) |
 | See where the pattern fits | [USE_CASES.md](USE_CASES.md) |
 | Share it without spam | [SHARE_KIT.md](SHARE_KIT.md) |
+| Give feedback or ask adaptation questions | [Discussion #1](https://github.com/taherdhanera/bountyops-claim-guardian-demo/discussions/1) |
 | Launch it responsibly | [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md) |
 | See the public roadmap | [ROADMAP.md](ROADMAP.md) |
 | Inspect the generated dashboard | [demo-dashboard.html](demo-dashboard.html) |
