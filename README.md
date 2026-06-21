@@ -20,12 +20,13 @@ https://github.com/taherdhanera/bountyops-claim-guardian-demo
 | Reuse the operating pattern | [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) |
 | Copy the workflow template | [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md) |
 | See where the pattern fits | [USE_CASES.md](USE_CASES.md) |
+| Share it without spam | [SHARE_KIT.md](SHARE_KIT.md) |
 | Inspect the generated dashboard | [demo-dashboard.html](demo-dashboard.html) |
 | Read a sample checkpoint/report | [demo-current.md](demo-current.md) |
 | Verify the public data boundary | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) |
 | Check project maintenance notes | [CHANGELOG.md](CHANGELOG.md) |
 
-## Why Star / Save This
+## Who Should Star / Save This
 
 BountyOps is a public-safe reference for practical agentic operations. Star or save it if you are building agents that must watch changing external state, decide when action is justified, and leave a clear audit trail.
 
@@ -34,6 +35,8 @@ BountyOps is a public-safe reference for practical agentic operations. Star or s
 - preserves an audit trail for long-running work;
 - avoids spam by acting only when evidence shows a real gap;
 - packages the result as a readable dashboard and replayable decision report.
+
+It is most useful for AI-agent builders, open-source bounty contributors, maintainers, indie hackers, and teams designing GitHub, Gmail, CI, payment, support, recruiting, or release-readiness workflows.
 
 ## What This Proves
 
@@ -87,6 +90,7 @@ Open the static demo:
 - Operations playbook: [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md)
 - Workflow template: [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md)
 - Public manifest: [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md)
+- Share kit: [SHARE_KIT.md](SHARE_KIT.md)
 - Submission package: [submission-package.md](submission-package.md)
 
 This repository is intentionally static and public-safe. It shows the output and operating model without publishing private mailbox content, authenticated claim URLs, cookies, tokens, payout credentials, or banking data.

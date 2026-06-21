@@ -2,6 +2,8 @@
 
 ## 2026-06-21
 
+- Added share kit for legitimate, non-spam distribution.
+- Clarified who should star or save the project.
 - Added public-safe workflow template for adapting the agent loop.
 - Added operations playbook for recruiting, support, payment, and release workflows.
 - Added use-case guide so reviewers can quickly map the demo to real teams.
