@@ -56,6 +56,8 @@ Use this loop to grow stars without risking account trust:
 6. Improve the repo after every useful objection: unclear README, missing setup path, weak screenshot, missing use case, or confusing data boundary.
 7. Keep all sharing manual and specific. No bought stars, engagement groups, fake accounts, mass DMs, or duplicate comments.
 
+For a step-by-step release path, see [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md).
+
 ## No-Spam Rules
 
 - Share once per relevant community unless there is a meaningful update.
