@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-06-22
+
+- Added `QUICKSTART.md` so builders can copy the BountyOps pattern into another agent workflow faster.
+- Linked the quickstart from the README review path and public demo manifest.
+
 ## 2026-06-21
 
 - Added share kit for legitimate, non-spam distribution.

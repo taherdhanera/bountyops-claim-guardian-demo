@@ -9,6 +9,7 @@ This folder is the public-safe package for the BountyOps Claim Guardian Microsof
 ## Included Files
 
 - `README.md` - public-facing project overview and local demo commands.
+- `QUICKSTART.md` - shortest path to adapt the workflow to another agent or operations lane.
 - `DEPLOYMENT.md` - deployment instructions and verified public Vercel URL.
 - `index.html` - hostable static entry page for the public demo.
 - `assets/bountyops-dashboard.png` - public-safe screenshot of the static demo with private totals redacted.
