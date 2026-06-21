@@ -40,6 +40,7 @@ If this pattern helps your own agent work, star or save the repo so it is easier
 The fastest way to evaluate it is the live dashboard plus the architecture note:
 
 - [Live demo](https://taherdhanera.github.io/bountyops-claim-guardian-demo/)
+- [Showcase / review path](SHOWCASE.md)
 - [Agent decision model](ARCHITECTURE.md)
 - [Workflow template](WORKFLOW_TEMPLATE.md)
 
@@ -48,6 +49,7 @@ The fastest way to evaluate it is the live dashboard plus the architecture note:
 | Need | Start here |
 | --- | --- |
 | See the product-style demo | [Live demo](https://taherdhanera.github.io/bountyops-claim-guardian-demo/) |
+| Review the project in two minutes | [SHOWCASE.md](SHOWCASE.md) |
 | Understand the agent decision model | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | Reuse the operating pattern | [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) |
 | Copy the workflow template | [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md) |
@@ -104,8 +106,9 @@ Useful starting points:
 
 1. Open the [live dashboard](https://taherdhanera.github.io/bountyops-claim-guardian-demo/).
 2. Scan the active-lane table and action queue.
-3. Read [demo-current.md](demo-current.md) for the generated checkpoint/report.
-4. Review [ARCHITECTURE.md](ARCHITECTURE.md) for the decision policy and safety boundary.
+3. Open [SHOWCASE.md](SHOWCASE.md) for the two-minute project tour.
+4. Read [demo-current.md](demo-current.md) for the generated checkpoint/report.
+5. Review [ARCHITECTURE.md](ARCHITECTURE.md) for the decision policy and safety boundary.
 
 The demo is intentionally static, public-safe, and easy to review in under five minutes.
 
