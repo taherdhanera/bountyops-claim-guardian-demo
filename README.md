@@ -5,11 +5,27 @@ Reasoning-agent workflow for protecting open-source bounty payouts without noisy
 [![Live demo](https://img.shields.io/badge/live-demo-1168d8)](https://taherdhanera.github.io/bountyops-claim-guardian-demo/)
 [![Agent workflow](https://img.shields.io/badge/agent-workflow-177245)](ARCHITECTURE.md)
 [![No spam policy](https://img.shields.io/badge/policy-no--spam-5f6f82)](#safety-rules)
+[![Static public demo](https://img.shields.io/badge/static-public--safe-7a3db8)](PUBLIC_DEMO_MANIFEST.md)
+[![License MIT](https://img.shields.io/badge/license-MIT-111827)](LICENSE)
 
 Live demo: https://taherdhanera.github.io/bountyops-claim-guardian-demo/
 
 Repository:
 https://github.com/taherdhanera/bountyops-claim-guardian-demo
+
+## Why This Repo Is Worth Saving
+
+Most agent demos stop at chat. BountyOps shows a practical operations loop: read live external state, rank risk, decide whether action is justified, and leave evidence another human or agent can resume from.
+
+It is designed for workflows where a noisy or wrong action can hurt the user:
+
+- open-source bounty and payout monitoring;
+- GitHub issue, PR, CI, and review-state triage;
+- inbox and notification queues;
+- recruiting, support, release-readiness, and payment follow-up pipelines;
+- long-running agent tasks that need checkpointed memory instead of guesswork.
+
+If this pattern helps your own agent work, star or save the repo so it is easier for other builders to find.
 
 ## 30-Second Review
 
@@ -49,6 +65,21 @@ It is most useful for AI-agent builders, open-source bounty contributors, mainta
 | Copy-paste starter | [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md) gives a lane schema, action matrix, comment shape, and checkpoint format. |
 | Public-safe packaging | [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) defines the data boundary for sharing the demo. |
 | Real GitHub evidence | The demo links to public issue and PR evidence without exposing private account data. |
+
+## Reuse The Pattern
+
+The workflow is intentionally small enough to copy:
+
+```text
+inputs -> evidence lanes -> risk ranking -> action policy -> comment/fix/wait/checkpoint -> report
+```
+
+Useful starting points:
+
+- [WORKFLOW_TEMPLATE.md](WORKFLOW_TEMPLATE.md) for lane schema and action matrix.
+- [OPERATIONS_PLAYBOOK.md](OPERATIONS_PLAYBOOK.md) for adaptation steps.
+- [ARCHITECTURE.md](ARCHITECTURE.md) for the conservative decision policy.
+- [PUBLIC_DEMO_MANIFEST.md](PUBLIC_DEMO_MANIFEST.md) for the public/private data boundary.
 
 ## Fast Demo Path
 
